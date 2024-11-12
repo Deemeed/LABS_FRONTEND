@@ -1,0 +1,34 @@
+table, th, td{
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: darkgray;
+}
+
+tr:nth-child(even) {
+    background-color: cornsilk;
+}
+
+tr:nth-child(odd) {
+    background-color: lavenderblush;
+}
+
+tr:hover {
+    background-color: antiquewhite;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th {
+    text-align: left;
+}
+
